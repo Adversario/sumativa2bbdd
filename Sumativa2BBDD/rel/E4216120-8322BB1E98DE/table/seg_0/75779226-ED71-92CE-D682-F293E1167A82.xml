@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75779226-ED71-92CE-D682-F293E1167A82" name="Vehículos">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<generatorID>94DB6D82-A48D-EB64-2A5B-C2BD1879C708</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<ordsAlias>vehiculos</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vehiculo" id="79C018DB-5DE9-29D3-6594-9D5BC3261552">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<generatorID>616C6831-C9CE-D5D2-59D3-C72350E968DD</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marca" id="F42DDDBC-6CAC-76E0-5B12-2AFF98713EA5">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<generatorID>33AF5025-2D5E-A970-768F-BFE2EF8D7847</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="BA1BEF56-9047-3069-A1D1-36EBDF72C978">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<generatorID>9E97FB77-78D3-3752-8DF9-F609DE1F3C9A</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="año" id="A4068A70-1160-3272-C77D-DD18E69CFB66">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<generatorID>C8051B2D-B669-0882-0753-0C0AFC685B52</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Órdenes_de_Servicio_id_orden" id="4BEAA0E9-94FB-9556-46B8-FF8FFF8599AA">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<generatorID>16424FD6-A58A-FC2A-F074-060FE25D508E</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BE53156-407B-2932-6D72-5F4B37DBE8C1" referredColumn="17174006-EA37-5089-30C7-AFD713CA9D8D"/>
+</associations>
+</Column>
+<Column name="Clientes_id_cliente" id="E5BA1A98-7B8D-1227-4098-179DE2F18297">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<generatorID>D2B9C345-5892-F5FB-AD1C-272681C29AA3</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD82BCC6-7992-367D-F208-5EAB884650DE" referredColumn="476ACF81-6EB8-25D3-BD2F-3C36067E3963"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62556AE4-965C-49EC-64A6-1647F3BC0513" name="Vehículos_PK">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<generatorID>77D9A6AA-9430-F564-8E7D-C935C7E37DBC</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79C018DB-5DE9-29D3-6594-9D5BC3261552"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA6E7905-38B5-3DA4-7E97-59A5FF6E6780" name="Vehículos_Órdenes_de_Servicio_FK">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<generatorID>D7B11EC1-B87E-00A8-09F7-64951F98B262</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BEAA0E9-94FB-9556-46B8-FF8FFF8599AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FC21CE7-5744-BB4E-34DC-FBDD1B6BCAD2" name="Vehículos_Clientes_FK">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<generatorID>E6F26227-6B77-19F9-9843-05E294C1F74F</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5BA1A98-7B8D-1227-4098-179DE2F18297"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

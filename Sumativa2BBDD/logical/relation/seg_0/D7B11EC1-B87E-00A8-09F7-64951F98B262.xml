@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="D7B11EC1-B87E-00A8-09F7-64951F98B262">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:24:56 UTC</createdTime>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<engineerTo>
+<item key="E4216120-2B0C-3B87-4209-8322BB1E98DE" value="true"/>
+</engineerTo>
+<sourcePk>1E9451B2-8846-56BB-AC60-022CB5FFD7A2</sourcePk>
+<targetPk>77D9A6AA-9430-F564-8E7D-C935C7E37DBC</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E9271F46-F354-7F5E-19F8-40B8EB874021</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>94DB6D82-A48D-EB64-2A5B-C2BD1879C708</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

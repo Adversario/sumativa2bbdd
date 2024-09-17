@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C10818D-3960-6F33-844B-0E661873AD1D" name="Clientes">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<generatorID>C310EBC7-7E22-5127-0BC7-01609C40FC41</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="476ACF81-6EB8-25D3-BD2F-3C36067E3963">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<generatorID>B2D73EF6-2575-1230-CE44-86E0572AB392</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="C6CEDBE9-5A03-CA70-738D-D02F8A1C904D">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<generatorID>91830F3A-D5F6-4075-9F99-DB6CF2D9B39B</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dirección" id="37EECB77-B31C-EAEE-CAC1-9680ADCC3D2A">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<generatorID>4B1235A6-B870-D5B8-6FED-71962FC6C46A</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="teléfono" id="0632036F-9BAB-BD85-3B8B-5221591E8C6D">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<generatorID>1F2964EA-8112-8C26-EBBD-88AEF58D40FE</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED58AA9D-D5AB-68C0-5A76-AE8A39FADBCC" name="Clientes_PK">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<generatorID>E0D3964C-A8A3-2965-66EA-D41EF4185803</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="476ACF81-6EB8-25D3-BD2F-3C36067E3963"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

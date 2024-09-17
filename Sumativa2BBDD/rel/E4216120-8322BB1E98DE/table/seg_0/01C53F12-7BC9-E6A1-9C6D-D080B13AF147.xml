@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01C53F12-7BC9-E6A1-9C6D-D080B13AF147" name="Relation_3">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Órdenes_de_Servicio_id_orden" id="C646E79A-4AD7-A79B-AFF5-C669979E2EC3">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="552A5A80-AD7B-1FE8-3021-19D102B107BB" referredColumn="17174006-EA37-5089-30C7-AFD713CA9D8D"/>
+</associations>
+</Column>
+<Column name="Repuestos_id_repuesto" id="A33F6E24-44B4-1FCB-067A-E087F6945454">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A43D6A5D-7333-7F07-3121-BF563309022F" referredColumn="F1972B0D-D53A-4E2E-9442-FA6579D32708"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A807704-CC45-5C37-D522-2B3F42C4A658" name="Relation_3_PK">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C646E79A-4AD7-A79B-AFF5-C669979E2EC3"/>
+<colUsage columnID="A33F6E24-44B4-1FCB-067A-E087F6945454"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1944E58E-74B7-E76C-7E4F-78B7FCE954D6" name="Relation_3_Órdenes_de_Servicio_FK">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<generatorID>4C365D93-5D79-72CE-49F1-28FBED614087</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C646E79A-4AD7-A79B-AFF5-C669979E2EC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65C46192-86FC-9F0B-E0A9-260FF0AF72D4" name="Relation_3_Repuestos_FK">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<generatorID>4C365D93-5D79-72CE-49F1-28FBED614087</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A33F6E24-44B4-1FCB-067A-E087F6945454"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

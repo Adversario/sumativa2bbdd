@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A43D6A5D-7333-7F07-3121-BF563309022F" containerWithKeyObject="01C53F12-7BC9-E6A1-9C6D-D080B13AF147" localFKIndex="65C46192-86FC-9F0B-E0A9-260FF0AF72D4" name="Relation_3_Repuestos_FK">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:53:22 UTC</createdTime>
+<generatorID>4C365D93-5D79-72CE-49F1-28FBED614087</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<referredTableLongName>Repuestos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5782F382-9CCA-D73D-C587-D651E89E93C3</referredTableID>
+<keyObject>2CFC33E6-73F4-3F4C-D02E-69099197BE27</keyObject>
+<referredKeyID>2CFC33E6-73F4-3F4C-D02E-69099197BE27</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_repuesto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

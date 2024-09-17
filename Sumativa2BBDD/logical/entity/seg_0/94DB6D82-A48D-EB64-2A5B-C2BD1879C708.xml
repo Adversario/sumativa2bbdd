@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94DB6D82-A48D-EB64-2A5B-C2BD1879C708" name="Vehículos">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:01:50 UTC</createdTime>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<engineerTo>
+<item key="E4216120-2B0C-3B87-4209-8322BB1E98DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_vehiculo" id="616C6831-C9CE-D5D2-59D3-C72350E968DD">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:11:51 UTC</createdTime>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<engineerTo>
+<item key="E4216120-2B0C-3B87-4209-8322BB1E98DE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca" id="33AF5025-2D5E-A970-768F-BFE2EF8D7847">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:11:51 UTC</createdTime>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<engineerTo>
+<item key="E4216120-2B0C-3B87-4209-8322BB1E98DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="9E97FB77-78D3-3752-8DF9-F609DE1F3C9A">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:11:52 UTC</createdTime>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<engineerTo>
+<item key="E4216120-2B0C-3B87-4209-8322BB1E98DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="año" id="C8051B2D-B669-0882-0753-0C0AFC685B52">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:11:52 UTC</createdTime>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<engineerTo>
+<item key="E4216120-2B0C-3B87-4209-8322BB1E98DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_orden" id="16424FD6-A58A-FC2A-F074-060FE25D508E">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:26:40 UTC</createdTime>
+<generatorID>D7B11EC1-B87E-00A8-09F7-64951F98B262</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<engineerTo>
+<item key="E4216120-2B0C-3B87-4209-8322BB1E98DE" value="true"/>
+</engineerTo>
+<referedAttribute>0FDF709B-80A4-A272-3F2E-BA6FBFCD2B79</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="D2B9C345-5892-F5FB-AD1C-272681C29AA3">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:42:44 UTC</createdTime>
+<generatorID>E6F26227-6B77-19F9-9843-05E294C1F74F</generatorID>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<engineerTo>
+<item key="E4216120-2B0C-3B87-4209-8322BB1E98DE" value="true"/>
+</engineerTo>
+<referedAttribute>B2D73EF6-2575-1230-CE44-86E0572AB392</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="77D9A6AA-9430-F564-8E7D-C935C7E37DBC" name="Vehículos PK">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-17 00:12:03 UTC</createdTime>
+<ownerDesignName>Sumativa2BBDD</ownerDesignName>
+<engineerTo>
+<item key="E4216120-2B0C-3B87-4209-8322BB1E98DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>616C6831-C9CE-D5D2-59D3-C72350E968DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
